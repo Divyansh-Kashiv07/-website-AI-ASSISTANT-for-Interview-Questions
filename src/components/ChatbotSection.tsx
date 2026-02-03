@@ -28,27 +28,16 @@ const ChatbotSection = () => {
         <div className="max-w-4xl mx-auto">
           <div 
             id="chatbot-container"
-            className="min-h-[500px] rounded-2xl bg-card border-2 border-dashed border-accent/30 flex flex-col items-center justify-center p-8 shadow-lg"
+            className="min-h-[600px] rounded-2xl bg-card border border-border overflow-hidden shadow-xl"
           >
-            {/* Placeholder - Replace with your chatbot */}
-            <div className="text-center">
-              <div className="w-20 h-20 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-6">
-                <span className="text-4xl">🤖</span>
-              </div>
-              <h3 className="font-display text-2xl font-semibold mb-3">AI Interview Assistant</h3>
-              <p className="text-muted-foreground mb-6 max-w-md">
-                Your intelligent chatbot will appear here. Embed your chatbot using iframe, script, or React component.
-              </p>
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-accent/10 text-accent text-sm font-medium">
-                <span className="w-2 h-2 rounded-full bg-accent animate-pulse"></span>
-                Ready for Integration
-              </div>
-            </div>
+            <iframe 
+              src="https://cdn.botpress.cloud/webchat/v3.5/shareable.html?configUrl=https://files.bpcontent.cloud/2026/02/03/13/20260203134958-DLHAO1RB.json"
+              width="100%"
+              height="600"
+              className="border-0"
+              title="AI Interview Assistant"
+            />
           </div>
-          
-          <p className="text-center text-sm text-muted-foreground mt-4">
-            💡 Tip: Look for the <code className="bg-muted px-2 py-0.5 rounded">chatbot-container</code> div in the code to add your chatbot
-          </p>
         </div>
       </div>
     </section>
