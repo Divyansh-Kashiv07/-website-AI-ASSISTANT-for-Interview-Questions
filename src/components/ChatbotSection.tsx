@@ -30,13 +30,8 @@ const ChatbotSection = () => {
             id="chatbot-container"
             className="min-h-[600px] rounded-2xl bg-card border border-border overflow-hidden shadow-xl"
           >
-            <iframe 
-              src="https://cdn.botpress.cloud/webchat/v3.5/shareable.html?configUrl=https://files.bpcontent.cloud/2026/02/03/13/20260203134958-DLHAO1RB.json"
-              width="100%"
-              height="600"
-              className="border-0"
-              title="AI Interview Assistant"
-            />
+            {/* Noupe chatbot will load here via script in index.html */}
+            <div id="noupe-chatbot" className="w-full h-full min-h-[600px]" />
           </div>
         </div>
       </div>
