@@ -1,3 +1,6 @@
+ACTUALLY THIS WAS MY COLLEGE PROJECT
+
+
 🤖 AI Interview Preparation Assistant
 
 An intelligent web-based AI Interview Preparation Assistant designed to help students and job seekers prepare confidently for interviews.
